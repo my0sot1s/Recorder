@@ -6,6 +6,7 @@ MainRecoder::MainRecoder(QWidget *parent) :
     ui(new Ui::MainRecoder)
 {
     ui->setupUi(this);
+    rec.peopleDetection();
 }
 
 MainRecoder::~MainRecoder()

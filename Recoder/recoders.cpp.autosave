@@ -221,7 +221,7 @@ void recoders::loadRuning()
 
          while( true )
          {
-        capture>>frame;
+            capture>>frame;
        //-- 3. Apply the classifier to the frame
            if( !frame.empty() )
            { detectAndDisplay( frame ); }

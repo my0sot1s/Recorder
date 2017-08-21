@@ -16,6 +16,8 @@ public:
     explicit MainRecoder(QWidget *parent = 0);
     ~MainRecoder();
 
+    recoders rec;
+
 private:
     Ui::MainRecoder *ui;
 };
